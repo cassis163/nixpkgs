@@ -4343,6 +4343,8 @@ let
 
       sst-dev.opencode = callPackage ./sst-dev.opencode { };
 
+      sst-dev.opencode-beta = callPackage ./sst-dev.opencode-beta { };
+
       spywhere.guides = buildVscodeMarketplaceExtension {
         mktplcRef = {
           name = "guides";
