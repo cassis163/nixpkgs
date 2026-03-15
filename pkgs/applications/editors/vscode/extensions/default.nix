@@ -4341,6 +4341,8 @@ let
 
       sourcery.sourcery = callPackage ./sourcery.sourcery { };
 
+      sst-dev.opencode = callPackage ./sst-dev.opencode { };
+
       spywhere.guides = buildVscodeMarketplaceExtension {
         mktplcRef = {
           name = "guides";
